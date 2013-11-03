@@ -10,7 +10,7 @@ void printObj(Tny *tny, int level);
 int printElement(Tny *tny, int level)
 {
 	if (tny->type == TNY_NULL) {
-		printf("NULL\n");
+		printf("NULL, By hello\n");
 	} else if (tny->type == TNY_OBJ) {
 		printf("\n");
 		printObj(tny->value.tny, level + 1);
